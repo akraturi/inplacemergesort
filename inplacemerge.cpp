@@ -1,12 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-/*void swap(int &a,int &b)
-{
-	int t;
-	t=a;
-	a=b;
-	b=t;
-}*/
 void inplacemerge(int arr[],int i,int j)
 {   //a::Denotes the index of the minimum in the first subarray which is being merged
 	//b::Denotes the index of the minimum in the second subarray which is being merged
